@@ -1,0 +1,24 @@
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.inlineBlock {
+    display: inline-block;
+}
+
+.greenBtn {
+    background: #52c41a;
+    color: #fff;
+
+    &:hover,
+    &:focus,
+    &:active {
+        background: #52c41a;
+        color: #fff;
+        border-color: #52c41a;
+    }
+}
